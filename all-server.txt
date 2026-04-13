@@ -1,2 +1,2 @@
-server1.telent.com
-server2.telent.com
+server1.test.com
+server2.test.com
