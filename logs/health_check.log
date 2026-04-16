@@ -1,0 +1,23 @@
+=========================================
+  EBS Health Check Report
+  Host : IN-5CD4225CPB
+  User : EAD+pkumar754
+  Date : Thu Apr 16 17:56:04 IST 2026
+=========================================
+2026-04-16 17:56:05 - Checking disk usage...
+2026-04-16 17:56:06 - PASS - Disk usage is 61% (threshold: 80%)
+2026-04-16 17:56:06 - Checking Git availability...
+2026-04-16 17:56:07 - PASS - Git is available: git version 2.52.0.windows.1
+2026-04-16 17:56:07 - Checking directory: /c/Users/pkumar754/devops-lab
+2026-04-16 17:56:07 - PASS - Directory exists: /c/Users/pkumar754/devops-lab
+2026-04-16 17:56:08 - Checking directory: /c/Users/pkumar754/devops-lab/logs
+2026-04-16 17:56:08 - PASS - Directory exists: /c/Users/pkumar754/devops-lab/logs
+2026-04-16 17:56:08 - Checking directory: /c/Users/pkumar754/devops-lab/phase1-linux
+2026-04-16 17:56:08 - PASS - Directory exists: /c/Users/pkumar754/devops-lab/phase1-linux
+=========================================
+  Health Check Summary
+  PASSED : 5 checks
+  FAILED : 0 checks
+  STATUS : ALL OK
+  Log saved to: /c/Users/pkumar754/devops-lab/logs/health_check.log
+=========================================
