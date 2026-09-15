@@ -1,6 +1,6 @@
 name: My First Workflow
 
-on: push          # run this every time I push code
+on: workflow_dispatch          # run this every time I push code
 
 jobs:
   say-hello:              # you can name this anything
