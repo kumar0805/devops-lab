@@ -17,3 +17,6 @@ jobs:
 
       - name: List repo files
         run: ls -la
+
+      - name: Run system-info script
+        run: bash system-info.sh
