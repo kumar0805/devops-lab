@@ -6,8 +6,14 @@ jobs:
   say-hello:              # you can name this anything
     runs-on: ubuntu-latest  # GitHub gives you a free Linux VM
     steps:
+      - name: Get my repo files
+        uses: actions/checkout@v4
+
       - name: Print a message
         run: echo "Hello from GitHub Actions!"
-      
+
       - name: Show the date
         run: date
+
+      - name: List repo files
+        run: ls -la
